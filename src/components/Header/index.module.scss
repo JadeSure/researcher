@@ -16,8 +16,32 @@
   }
 
   .about {
-    color: pink;
     text-align: left;
     width: 750px;
+  }
+}
+
+@media (max-width: 428px) {
+  .header {
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    font-size: 13px;
+
+    .personal_image {
+      width: 216px;
+      min-width: 200px;
+      margin: 0 auto;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .about {
+      text-align: left;
+      width: 100%;
+    }
   }
 }

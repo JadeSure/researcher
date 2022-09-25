@@ -43,10 +43,10 @@ export default function Index() {
                   <div>{paper.publication}</div>
                 </td>
 
-                <td>
+                <td className={styles.table_col}>
                   <span>{paper.cited_by.value}</span>
                 </td>
-                <td>
+                <td className={styles.table_col}>
                   <span>{paper.year}</span>
                 </td>
               </tr>
