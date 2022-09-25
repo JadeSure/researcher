@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 20px;
+  border-bottom: 1px solid black;
+  font-size: 13px;
+  .personal_image {
+    width: 216px;
+    min-width: 200px;
+    margin-right: 50px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .about {
+    color: pink;
+    text-align: left;
+    width: 750px;
+  }
+}

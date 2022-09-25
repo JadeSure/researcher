@@ -1,0 +1,27 @@
+.container {
+  text-align: left;
+  margin: 0 50px;
+  padding: 20px 0;
+  margin: 0 auto;
+  align-items: center;
+  //   tr th td {
+  //     padding: 20px 0;
+  //   }
+  //   td > div {
+  //     padding: 10px 0；;
+  //   }
+  .table_title {
+    font-size: 15px;
+    // align: center;
+  }
+  .table_content {
+    padding-top: 10px;
+    a {
+      font-size: 20px;
+    }
+  }
+
+  .table_education {
+    margin: 15px 0;
+  }
+}
